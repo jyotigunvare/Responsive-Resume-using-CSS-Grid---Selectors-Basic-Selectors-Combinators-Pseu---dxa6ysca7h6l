@@ -66,6 +66,7 @@ padding: 0.8rem;
 font-size: 1rem;
 padding-bottom: 0.5rem;
 text-align:center;
+text-transform: uppercase;
 }
 .description{
 font-size: 0.75rem;
@@ -94,8 +95,9 @@ padding-right: 0.5rem;
 }
 .skill-name{
 font-size: 0.65rem;
+font-weight: 0.65rem;
 text-align: left;
-padding-bottom: 0.5;
+padding-bottom: 0.5rem;
 }
 .progress-bar{
 border:1px solid white;
