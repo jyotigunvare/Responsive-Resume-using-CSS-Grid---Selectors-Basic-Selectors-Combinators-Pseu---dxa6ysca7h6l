@@ -5,5 +5,136 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    min-height: 1000px;
+    width: 90%;
+    /* margin: 20px/auto; */
+    border: solid 2px bisque;
+}
+@media screen and (min-width:674px ){
+.main-content{
+  grid-template-columns: 300px 700px;
+  
+}
+}
+.left-section{
+background-color:black;
+color: white;
+grid-column: span 1;
 
-/* Write CSS code below */
+
+
+}
+.right-section{
+
+background-color: lightblue;
+grid-column: span 1 /span 2;
+
+
+}
+/* *{
+box-sizing: border-box;
+} */
+.left-content{
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.profile-image{
+background: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg");
+display: block;
+margin: auto;
+border: solid 5px white;
+border-radius: 30%;
+width: 60%;
+height: 100px
+}
+
+.name{
+font-size: 1.2rem;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.02px;
+padding: 0.8rem;
+
+}
+.designation{
+font-size: 1rem;
+padding-bottom: 0.5rem;
+text-align:center;
+}
+.description{
+font-size: 0.75rem;
+text-align:center;
+padding: 1rem;
+}
+.social-media{
+display: flex;
+/* justify-content: center; */
+margin-bottom: 5px;
+margin-left: 15px;
+}
+.icon{
+margin-right: 20px;
+margin-left: 15px;
+
+}
+.skills{
+font-size: 0.75rem;
+text-align: center;
+text-transform: uppercase;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+.skill-name{
+font-size: 0.65rem;
+text-align: left;
+padding-bottom: 0.5;
+}
+.progress-bar{
+border:1px solid white;
+height: 4px;  
+}
+/* For Firefox */
+progress::-moz-progress-bar {
+        background:white;
+    }
+
+    /* For Chrome or Safari */
+    progress::-webkit-progress-value {
+        background: white;
+    }
+
+    /* For IE10 */
+    progress {
+        background: white;
+    }
+.right-main-content{
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+.right-title{
+text-transform: uppercase;
+font-size: 1.2rem;
+font-weight: 700;
+padding: 0.5rem;
+letter-spacing: 1px;
+}
+.para{
+font-size: 15px;
+
+
+}
+mb-1{
+text-align: right;
+
+}
+
